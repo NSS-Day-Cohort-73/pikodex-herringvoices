@@ -2,8 +2,29 @@
     text-align: center;
     font-family: copperplate;
     font-size: 5em;
-    margin-top: 1rem;
+    margin: 0;
+    background-color: #ed1e79;
+    color: #eeeeee;
+    box-shadow: 0px 0px 10px #e93acc;
+    text-shadow: 0px 0px 10px #3d3337;
+    border-bottom: .5rem  #f2d272 solid;
+
+    
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #0f303e;
+    background-color: #efd6e0;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#title h1 {
+    margin: 0;
+    padding: 0;
+}
+
 
 #container {
     display: flex;
@@ -14,13 +35,25 @@
 }
 
 .piko-card {
+    background-image: url("../assets/bkg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     flex-basis: 25%;
+    padding: 1em;
     margin: 3em;
+    background-color: #d8f3fe;
+    border-radius: 1em;
+    border: #f2d272 .5em solid;
+    box-shadow: 0px 4px 10px #3e0f36;
+    
 }
 
 .piko-img {
-    width: 100%;
-    border-radius: 1em;
+    width: 80%;
+    border-radius: 2em;
+    border: #f2d272 .5em solid;
 }
 
 .piko-info {
@@ -33,18 +66,53 @@
 }
 
 .piko-name {
-    font-family: "copperplate", fantasy;
+    font-family:  impact;
+    color: #eee;
+    font-weight: normal;
     font-size: 1.5em;
+
 }
 
 .piko-abilities {
+    background-color: #ff1491ec; 
+    width: 80%;
+    color: white;
+    padding: 2px 10px;
+    margin: 2px 0;
+    font-size: 1em; 
+    text-align: center;
+    border-radius: .5em;
+    border: #f2d272 .15em solid;
+    box-shadow: 0px 0px 10px #e93acc;
 
 }
 
 .piko-category {
 
+    background-color: #4d3afae7; 
+    width: 80%;
+    color: #eee;
+    padding: 2px 10px;
+    margin: 2px 0;
+    font-size: 1em; 
+    text-align: center;
+    border: #f2d272 .15em solid;
+    box-shadow: 0px 0px 10px #5fa1ec;
+    border-radius: .5em;
+
 }
 
 .piko-weakness {
+
+    background-color: #4d3afae7; 
+    width: 80%;
+    color: #eee;
+    padding: 2px 10px;
+    margin: 2px 0;
+    font-size: 1em; 
+    text-align: center;
+    border: #f2d272 .15em solid;
+    box-shadow: 0px 0px 10px #5fa1ec;
+    border-radius: .5em;
 
 }

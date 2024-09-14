@@ -1,83 +1,66 @@
 export const database = [
     {
-        id: 1,
-        name: 'Crouchy',
-        imageUrl: 'assets/crouchy.png',
-        category: 'Hunch',
-        abilities: 'Crouch',
-        weakness: 'Posture'
+        name: "Dexter",
+        type: "meat",
+        image: "assets/dexter.png",
+        attack: 130,
+        info: "Dexters are good pikomon who never do anything wrong. They likes pets and going to the pikomon park.",
+        id: 1
     },
     {
-        id: 2,
-        name: 'Flink',
-        imageUrl: 'assets/flink.png',
-        category: 'Small and Angry',
-        abilities: 'Quick Reflexes',
-        weakness: 'Impatience'
+        name: "Human",
+        type: "meat",
+        image: "assets/human.png",
+        attack: 55,
+        info: "Humans are well known for being the grossest pikomon. They don't smell good and their bodies are disturbingly squishy.",
+        id: 2
     },
     {
-        id: 3,
-        name: 'Putron',
-        imageUrl: 'assets/putron.png',
-        category: 'Stinky',
-        abilities: 'Toxic Gas Emission',
-        weakness: 'Air Freshener'
+        name: "Boyarbot",
+        type: "bot",
+        image: "assets/boyarbot.png",
+        attack: 45,
+        info: "Boyarbot is a cookbot not a fightbot. Soup is their particular specialty.",
+        id: 3
     },
     {
-        id: 4,
-        name: 'Sherton',
-        imageUrl: 'assets/sherton.png',
-        category: 'Kind of Stupid',
-        abilities: 'Extraordinary Clumsiness',
-        weakness: 'Sharp Objects'
+        name: "Yarbot",
+        type: "bot",
+        image: "assets/yarbot.png",
+        attack: 60,
+        info: "Yarbots were engineered for the open seas. They can shiver timbers with 87% accuracy.",
+        id: 4
     },
     {
-        id: 5,
-        name: 'Gobojomo',
-        imageUrl: 'assets/gobojomo.png',
-        category: 'Monkee',
-        abilities: 'Banana Telekinesis',
-        weakness: 'Peeling Bananas'
+        name: "Carrotot",
+        type: "plant",
+        image: "assets/carrotot.png",
+        attack: 57,
+        info: "Carrotot are cute as three buttons, but don't let that fool you: they can be mean.",
+        id: 5
     },
     {
-        id: 6,
-        name: 'Pete',
-        imageUrl: 'assets/pete.png',
-        category: 'Business',
-        abilities: 'PowerPoint Mastery',
-        weakness: 'Paper Cuts'
-    },   
-    {
-        id: 7,
-        name: 'Tarmus',
-        imageUrl: 'assets/tarmus.png',
-        category: 'Rocks',
-        abilities: 'Rock Solid Defense',
-        weakness: 'Moss Growth'
+        name: "Potatot",
+        type: "plant",
+        image: "assets/potatot.png",
+        attack: 30,
+        info: "I'll be honest with you: potatot should not be competing in pikomon battles. They are fragile and have no arms.",
+        id: 6
     },
     {
-        id: 8,
-        name: 'Throrugg',
-        imageUrl: 'assets/throrugg.png',
-        category: 'Throw Rug',
-        abilities: 'Tangle Trap',
-        weakness: 'Vacuum Cleaners'
+        name: "Suitament",
+        type: "rock",
+        image: "assets/suitament.png",
+        attack: 70,
+        info: "Suitament are business rocks of rare renown. You aren't likely to find a more professional pikomon out there.",
+        id: 7
     },
     {
-        id: 9,
-        name: 'Skunch',
-        imageUrl: 'assets/skunch.png',
-        category: 'Mischievous',
-        abilities: 'Master of Pranks',
-        weakness: 'Close Talkers'
-    },
-    {
-        id: 10,
-        name: 'Dexter',
-        imageUrl: 'assets/dexter.jpg',
-        category: 'Good Boy',
-        abilities: 'Being the Best Dog',
-        weakness: 'Existential Angst'
+        name: "Scigneous",
+        type: "rock",
+        image: "assets/scigneous.png",
+        attack: 62,
+        info: "Scigneous are geniuses. Honestly, they should be <em>your</em> pikomon trainer.",
+        id: 8
     }
-
-];
+]

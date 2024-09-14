@@ -1,5 +1,5 @@
-import { displayPikomon } from "./pikomon.js"
+import { startGame } from "./gameLogic.js"
 
-const container = document.querySelector('#container')
+const startButton = document.getElementById("start-button")
 
-container.innerHTML = displayPikomon()
+startButton.addEventListener("click", startGame)
